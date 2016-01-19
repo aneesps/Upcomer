@@ -1,0 +1,139 @@
+body {}
+
+header {
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    padding: 3px;
+}
+
+div {
+    display: inline-block;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+main {
+    text-align: center;
+    color: #fff;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+.active_page {
+    font-family: Asap-Bold;
+    font-size: 18pt;
+    color: #333;
+}
+
+.inactive_page {
+    font-family: Asap-Bold;
+    font-size: 18pt;
+    color: #999;
+}
+
+.menu {
+    width: 250px;
+    float: left;
+    top: -20px;
+}
+
+.logo {
+    position: absolute;
+    left: 200px;
+    right: 200px;
+    top: 30px;
+}
+
+.social {
+    float: right;
+    width: 200px;
+    top: -20px;
+}
+
+.why {
+    width: 300px;
+    text-align: justify;
+}
+
+.main_section {
+    background-image: url("../Images/bg1_repeat.png");
+    height: 625px;
+}
+
+.section_main {
+    font-family: Asap-Bold;
+    font-size: 52pt;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 762px;
+}
+
+.section_sub {
+    font-family: Asap-Regular;
+    font-size: 24pt;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 762px;
+}
+
+input {
+    width: 269px;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+    background-color: red;
+}
+
+.ok {
+    height: 60px;
+    width: 81px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: none;
+    color: #fff;
+    background-color: #2eec71;
+    margin: 0;
+    border: 0px solid #fff;
+}
+
+.arrow_button {
+    position: absolute;
+    
+    left: 0;
+    right: 0;
+
+}
+
+.section_submit {
+    height: 70px;
+     padding-bottom: 20px;
+}
+
+.submit_email {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+.section_lower {
+    font-family: Asap-Regular;
+    font-size: 18pt;
+    padding-bottom: 60px;
+
+}
+section{
+	width:80%;
+	margin:auto;
+}

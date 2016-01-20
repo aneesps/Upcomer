@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Asap-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Asap Bold'), local('Asap-Bold'),
+        url(../Fonts/asap-bold_4548f3f9f00afa7e155e279e95761255.woff) format('woff'),
+        url(../Fonts/asap-bold_4548f3f9f00afa7e155e279e95761255.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Asap-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Asap'), local('Asap-Regular'),
+        url(../Fonts/asap_9a9c99a733cce9abf9e9c7ad122ac9a5.woff) format('woff'),
+        url(../Fonts/asap_9a9c99a733cce9abf9e9c7ad122ac9a5.ttf) format('truetype');
+}
+
+
 body {
 	/*overflow-x:hidden; */
 }
@@ -43,7 +61,7 @@ main {
     color: #999;
 }
 
-.social_image {
+.social_icon {
     height: 32px;
 }
 
@@ -100,10 +118,13 @@ main {
     color: #fff;
     opacity: 0.3;
     font-size: 20.3px;
+    padding-left: 20px;
+    outline: none;
 }
 
 input {
     vertical-align: top;
+    outline: none;
 }
 
 .ok {
@@ -118,6 +139,9 @@ input {
     border: 0px solid #fff;
     font-size: 20.3px;
     font-family: Asap-Regular;
+}
+.ok:hover{
+	background-color: #006400;
 }
 
 .arrow_button {
@@ -147,14 +171,22 @@ input {
 section {
     width: 75%;
     margin: auto;
+    padding: 20px 0px;
+
+}
+
+article{
+	 padding: 20px 0px;
 }
 
 .section_main_div {
     width: 100%;
+    text-align: center;
 }
 
 .section_sub_div {
     width: 100%;
+    text-align: center;
 }
 
 
@@ -191,14 +223,26 @@ section {
 .section_down_arrow{
 	height: 83px;
 }
+.feed_bg_div{
+	width: 80%;
+	margin: auto;
+	display: block;
+
+}
 .feed_bg{
-	width:600px;
+	width: 100%;
 	height: 250px;
+	margin: auto;
 }
 
 .feed_sub{
-
+	
 	height: 200px;
+}
+.feed_sub_content{
+	color: #333;
+    font-size: 20px;
+    font-family: Asap-Regular;
 }
 
 .feed_sub_image{
@@ -207,13 +251,47 @@ section {
 	display: inline-block;
 }
 .feed_sub_div{
+	vertical-align: top;
 	margin-left:20px;
 width: 55%;
 height: 200px;
 }
 .feed_sub1_head{
 	text-align:left;
+	color: #333;
+    font-size: 36px;
+    font-family: Asap-Bold;
 }
 .feed_sub2_head{
 	text-align:right;
+	color: #333;
+    font-size: 36px;
+    font-family: Asap-Bold;
+
+}
+.social_head{
+	color: #fff;
+    font-size: 36px;
+    font-family: Asap-Bold;
+    text-align: center;
+    
+      width: 100%;
+}
+.social_content{
+	color: #fff;
+    font-size: 24px;
+    font-family: Asap-Regular;
+    text-align: center;
+    margin:auto;
+   width: 100%;
+    
+}
+
+.social_links{
+	text-align: center;
+	
+}
+.social_image{
+	width: 260px;
+	height: 60px;
 }

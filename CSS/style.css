@@ -19,6 +19,10 @@ body {
 header {
     height: 60px;
     padding-bottom: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #fff;
 }
 
 a {
@@ -39,6 +43,7 @@ li {
 main {
     text-align: center;
     color: #fff;
+    margin-top: 60px;
 }
 
 #wrapper {
@@ -64,7 +69,6 @@ main {
 .menu {
     width: 250px;
     float: left;
-    top: -20px;
 }
 
 .logo {
@@ -72,12 +76,12 @@ main {
     left: 200px;
     right: 200px;
     top: 30px;
+    text-align: center;
 }
 
 .social {
     float: right;
     width: 200px;
-    top: -20px;
 }
 
 .why {
@@ -98,10 +102,6 @@ main {
 .main_section {
     background-image: url("../Images/bg1_repeat.png");
     background-size: contain;
-}
-
-.section_feed {
-    width: 75%;
 }
 
 .section_main {
@@ -157,7 +157,8 @@ input {
 }
 
 .arrow_down {
-    height: 105px;
+    height: 66px;
+    margin-top: -46px;
 }
 
 .section_submit {
@@ -175,6 +176,7 @@ input {
 }
 
 .section_lower {
+    margin-top: 100px;
     width: 100%;
     font-size: 18px;
     padding-bottom: 41px;
@@ -219,6 +221,14 @@ article {
     font-family: Asap-Regular;
 }
 
+.section_down_arrow {
+    height: 83px;
+}
+
+.section_feed {
+    width: 75%;
+}
+
 .feed_content {
     background-color: #f5f5f5;
     background-size: contain;
@@ -239,19 +249,16 @@ article {
     font-family: Asap-Regular;
 }
 
-.section_down_arrow {
-    height: 83px;
-}
-
 .feed_bg_div {
     width: 80%;
+    height: 200px;
     margin: auto;
     display: block;
 }
 
 .feed_bg {
     width: 100%;
-    height: 250px;
+    height: 100%;
     margin: auto;
 }
 
@@ -268,7 +275,7 @@ article {
 
 .feed_sub_image {
     width: 40%;
-    height: 200px;
+    height: 100%;
     display: inline-block;
 }
 
@@ -318,7 +325,7 @@ article {
 .social_image {
     width: 260px;
     height: 60px;
-    width: 30%;
+    width: 20%;
     padding: 0 5px;
 }
 
@@ -339,6 +346,15 @@ Adjusting the sizes of the text to fit the new width.*/
     .ok {
         font-size: 17px;
     }
+    /* Safari,
+    Chrome and Opera */
+    ::-webkit-input-placeholder {
+        font-size: 17px;
+    }
+    /* Firefox 19+ */
+    ::-moz-placeholder {
+        font-size: 14px;
+    }
     .feed_tag {
         font-size: 16px;
     }
@@ -356,5 +372,30 @@ Adjusting the sizes of the text to fit the new width.*/
     }
     .social_content {
         font-size: 22px;
+    }
+}
+
+
+/*Starting the media query for the second break point. 
+Changing the view of "Personalize Your Feed" according to the new width.*/
+
+@media screen and (max-width:550px) {
+    .feed_sub_div,
+    .feed_sub_image {
+        display: block;
+    }
+    .feed_tag {
+        width: 75%;
+    }
+    .feed_bg_div {
+        width: 120%;
+    }
+    .feed_sub_head {
+        text-align: center;
+    }
+    .feed_sub_div {
+        margin: auto;
+        width: 100%;
+        text-align: center;
     }
 }

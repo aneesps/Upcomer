@@ -5,44 +5,91 @@
     <meta charset="UTF-8">
     <title>Upcomer</title>
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/aboutStyle.css">
 </head>
 
 <body>
-    <div id="wrapper"></div>
-    <header>
-        <div class="menu">
-            <ul>
-                <li>
-                    <a class="inactive_page" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a class="active_page" href="about.html">About</a>
-                </li>
-            </ul>
-        </div>
-        <div class="social">
-            <ul>
-                <li>
-                    <a href="#twitter"><img src="Images/tweet-icon.png"></a>
-                </li>
-                <li>
-                    <a href="#fb"><img src="Images/fb-icon.png"></a>
-                </li>
-            </ul>
-        </div>
-        <div class="logo">
+    <div id="wrapper" class="home_div">
+        <header class="large_screen about_head">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a class="inactive_page" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="active_page" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="#fb"><img class="social_icon" src="Images/fb-icon.png"></a>
+                    </li>
+                    <li>
+                        <a href="#twitter"><img class="social_icon" src="Images/tweet-icon.png"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="Images/upcomer-logo.png">
+            </div>
+        </header>
+        <!-- Header for the view in small screen like mobiles.    -->
+        <header class="small_screen about_head">
+            <div class="menu">
+                <a class="active_page" href="index.html">Home</a>
+            </div>
+            <div class="social">
+                <a class="inactive_page" href="about.html">About</a>
+            </div>
+            <div class="logo">
+                <img src="Images/upcomer-logo.png">
+            </div>
+        </header>
+        <div id="content_wrapper" class="home_div">
+            <section class="main_intro">
+                <div class="intro_text_div home_div">
+                    <h1 class="intro_head head_font">Why we do what we do</h1>
+                    <p class="intro_para content_font">We believe that it should be easy, fun and rewarding to stay updated on upcoming products that you care about. We do also believe that we as customers should have the possibility to be more involved in the development of upcoming products which will result in better products. And that the brands behind the product will benefit greatly from a closer relationship with their customers during the product development. Upcomer is built upon these beliefs and with your help we will build the next big thing, to let the people know about the next big things!</p>
+                    <p class="intro_year">2014</p>
+                </div>
+                <img src="Images/illustration3.png" class="intro_image">
+            </section>
+            <section class="main_points">
+                <div class="points_div_left points_div1">
+                    <div class="point_circle circle1 home_div"></div>
+                    <div class="point_left">
+                        <h4 class="point1 point_head head_font">A new idea was forming</h4>
+                        <p class="point1 point_para content_font">Some text depending on the idea.Some text depending on the idea.</p>
+                    </div>
+                </div>
+                <div class="points_div_right points_div2">
+                    <div class="point_circle circle2 home_div"></div>
+                    <div class="points_right">
+                        <h4 class="point2 point_head head_font">Design and brandidentity</h4>
+                        <p class="point2 point_para content_font">Some text depending on the design and brand.Some text depending on the design and brand.</p>
 
-        <center>
-            <img src="Images/upcomer-logo.png"></a>
-        </center>
+                    </div>
+                </div>
+                <div class="points_div_left points_div3">
+                    <div class="point_circle circle3 home_div"></div>
+                    <div class="point_left">
+                        <h4 class="point3 point_head head_font">Android app developed.</h4>
+                        <p class="point3 point_para content_font">Some text depending on the android add.Some text depending on the android add.</p>
+                    </div>
+                </div>
+                <div class="points_div_right points_div4">
+                    <div class="point_circle circle4 home_div"></div>
+                    <div class="points_right">
+                        <h4 class="point4 point_head head_font">Beta signup launched</h4>
+                        <p class="point4 point_para content_font">Some text depending on the signup.Some text depending on the signup.</p>
+                    </div>
+                </div>
+               <div class"include_now"> <div class="now">NOW</div></div>
+            </section>
         </div>
-    </header>
-
-
-    <section class="why">
-    <h2>Why we do what we do</h2>
-    <p>We believe that it should be easy, fun and rewarding to stay updated on upcoming products that you care about. We do also believe that we as customers should have the possibility to be more involved in the development of upcoming products which will result in better products. And that the brands behind the product will benefit greatly from a closer relationship with their customers during the product development.
-Upcomer is built upon these beliefs and with your help we will build the next big thing, to let the people know about the next big things!</p>
+    </div>
 </body>
 
 </html>

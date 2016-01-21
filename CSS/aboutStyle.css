@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Asap-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Asap Bold'), local('Asap-Bold'), url(../Fonts/asap-bold_4548f3f9f00afa7e155e279e95761255.woff) format('woff'), url(../Fonts/asap-bold_4548f3f9f00afa7e155e279e95761255.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Asap-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Asap'), local('Asap-Regular'), url(../Fonts/asap_9a9c99a733cce9abf9e9c7ad122ac9a5.woff) format('woff'), url(../Fonts/asap_9a9c99a733cce9abf9e9c7ad122ac9a5.ttf) format('truetype');
+}
+.about_head {
+    border-bottom: 2px solid #999;
+}
+
+#content_wrapper {
+    width: 80%;
+    margin: 60px 10% 0 10%;
+    line-height: 200%;
+}
+.head_font{
+	font-family: Asap-Bold;
+	color: #333;
+}
+.content_font{
+	font-family: Asap-Regular;
+	color: #999;
+}
+.intro_head{
+	font-size: 36px;
+}
+.intro_para{
+	font-size: 20px;
+}
+.intro_text_div{
+	width:60%;
+	text-align: left;
+	line-height: 200%;
+}
+.intro_image{
+	width: 35%;
+	height: 450px;
+}
+.intro_year{
+	text-align: right;
+	font-family: Asap-Bold;
+	color: #999;
+	font-size: 20px;
+}
+.point_head{
+	font-size: 22px;
+}
+.point_para{
+	font-size: 20px;
+}
+.point2, .point4{
+	margin-left: 35px;
+}
+.point_circle{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	position: relative;
+
+}
+.points_div_left{
+	width: 40%;
+	text-align: left;
+	height: 150px;
+}
+.points_div_right{
+	width: 40%;
+	text-align: left;
+	height: 150px;
+	display: inline-block;
+	margin-left: 96px;
+	margin-top: -50px;
+	float:right;
+}
+.points_div3{
+	margin-top: 125px;
+}
+/*.point1{
+	text-align: right;
+}*/
+
+/*.points_right{
+	width: 40%;
+	float: right;
+}*/
+/*.point3{
+	text-align: right;
+}*/
+/*.point4{
+	float: right;
+}*/
+.circle1{
+	background-color: #FAA8AA;
+	float: right;
+	right: -17px;
+	top: 35px;
+}
+.circle2{
+	background-color: #D6797B;
+	float: left;
+	left: -20%;
+	display: inline-block;
+	top:94px;
+}
+.circle3{
+	background-color: #C36061;
+	float: right;	
+	right: -17px;
+	top: 35px;
+}
+.circle4{
+	background-color: #B04E4F;
+	float: left;
+	left: -20%;
+	display: inline-block;
+	top:94px;
+}
+.include_now{
+	position: relative;
+	left: 0;
+	right: 0;
+	height: 100px;
+}
+.now{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color:#B04E4F;
+}

@@ -36,7 +36,7 @@ a {
     padding: 3px;
 }
 
-div {
+.home_div {
     display: inline-block;
 }
 
@@ -126,7 +126,6 @@ main {
 .submit_email {
     width: 100%;
     margin: auto;
-    /*position: relative;*/
     left: 0;
     right: 0;
 }
@@ -177,7 +176,6 @@ input {
 }
 
 .section_submit {
-    /*position: absolute;*/
     width: 100%;
     height: 70px;
     padding-bottom: 20px;
@@ -213,12 +211,11 @@ article {
 
 /* Safari, Chrome and Opera */
 
-
-/*::-webkit-input-placeholder {
+::-webkit-input-placeholder {
     color: #fff;
     font-size: 20.3px;
     font-family: Asap-Regular;
-}*/
+}
 
 
 /* Firefox 19+ */
@@ -267,7 +264,6 @@ article {
 
 .feed_bg {
     width: 100%;
-    /*height: 100%;*/
     margin: auto;
     min-width: 300px;
 }
@@ -282,7 +278,12 @@ article {
     font-size: 20px;
     font-family: Asap-Regular;
 }
-
+.feed_sub_content1 {
+    text-align: left;
+}
+.feed_sub_content2 {
+    text-align: right;
+}
 .feed_sub_image {
     width: 40%;
     display: inline-block;
@@ -323,7 +324,6 @@ article {
 
 .social_connect_div {
     margin: auto;
-    /*text-align: center;*/
 }
 
 .social_head {
@@ -332,7 +332,6 @@ article {
     font-family: Asap-Bold;
     text-align: center;
     width: 100%;
-    /*margin: auto;*/
 }
 
 .social_content {
@@ -343,19 +342,16 @@ article {
     margin: auto;
     width: 100%;
     padding-bottom: 20px;
-    /*margin: auto;*/
 }
 
 .social_links {
     text-align: center;
     width: 100%;
-    /*margin: auto;*/
     padding-bottom: 50px;
 }
 
 .social_image {
     min-width: 200px;
-    /*height: 60px;*/
     width: 20%;
     padding: 0 5px;
 }
@@ -372,14 +368,12 @@ article {
 .upcome_div {
     width: 100%;
     margin: auto;
-    /*position: absolute;*/
 }
 
 .upcome_image {
     margin: auto;
     position: relative;
     width: 15%;
-    /*left: 20%;*/
     height: 200px;
 }
 
@@ -395,7 +389,7 @@ article {
 .footer_social {
     display: block;
     text-align: center;
-    padding:10px 0px;
+    padding: 10px 0px;
 }
 
 
@@ -549,9 +543,9 @@ Changing the view of "Personalize Your Feed" according to the new width.*/
 /*Starting the media query to write the css style for the mobile view of the site*/
 
 @media screen and (max-width:545px) {
-	html{
-		overflow-x:hidden;
-	}
+    html {
+        overflow-x: hidden;
+    }
     .small_screen {
         z-index: 3;
         height: 60px;
@@ -574,7 +568,7 @@ Changing the view of "Personalize Your Feed" according to the new width.*/
         left: 60px;
         right: 60px;
         top: 15px;
-        padding:0px 10px;
+        padding: 0px 10px;
     }
     .section_main {
         font-size: 25px;
@@ -648,22 +642,21 @@ Changing the view of "Personalize Your Feed" according to the new width.*/
     .social_content {
         font-size: 15px;
     }
-    @media screen and (max-width: 400px){
-    .social_links {
-        display: block;
-        height: 120px;
+    @media screen and (max-width: 400px) {
+        .social_links {
+            display: block;
+            height: 120px;
+        }
+        .social_image {
+            width: 60%;
+            height: 40px;
+            padding-bottom: 20px;
+        }
     }
-    .social_image {
-        width: 60%;
-        height: 40px;
-        padding-bottom: 20px;
-    }
-}
     .upcome {
         height: 85px;
     }
     .upcome_image {
-       
         height: 115px;
     }
     .upcome_tag {

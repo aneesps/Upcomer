@@ -16,14 +16,19 @@ body {
     margin: 0px;
 }
 
-header {
-	z-index: 3;
+.large_screen {
+    z-index: 3;
     height: 60px;
     padding-bottom: 10px;
     position: fixed;
     left: 0;
     right: 0;
     background: #fff;
+    display: block;
+}
+
+.small_screen {
+    display: none;
 }
 
 a {
@@ -172,13 +177,11 @@ input {
 }
 
 .section_submit {
-	/*position: absolute;*/
+    /*position: absolute;*/
     width: 100%;
     height: 70px;
     padding-bottom: 20px;
 }
-
-
 
 .section_lower {
     margin-top: 10px;
@@ -191,7 +194,6 @@ section {
     margin: auto;
     padding: 20px 0px;
     min-height: 100px;
-    
 }
 
 article {
@@ -210,6 +212,7 @@ article {
 
 
 /* Safari, Chrome and Opera */
+
 
 /*::-webkit-input-placeholder {
     color: #fff;
@@ -257,19 +260,16 @@ article {
 
 .feed_bg_div {
     width: 100%;
-    
     margin: auto;
     display: block;
-     padding-bottom: 50px;
- }
-
+    padding-bottom: 50px;
+}
 
 .feed_bg {
     width: 100%;
     /*height: 100%;*/
     margin: auto;
     min-width: 300px;
-
 }
 
 .feed_sub {
@@ -285,7 +285,6 @@ article {
 
 .feed_sub_image {
     width: 40%;
- 
     display: inline-block;
 }
 
@@ -317,12 +316,14 @@ article {
     font-size: 36px;
     font-family: Asap-Bold;
 }
-.social_connect{
-	text-align: center;
+
+.social_connect {
+    text-align: center;
 }
-.social_connect_div{
-	margin: auto;
-	/*text-align: center;*/
+
+.social_connect_div {
+    margin: auto;
+    /*text-align: center;*/
 }
 
 .social_head {
@@ -353,51 +354,52 @@ article {
 }
 
 .social_image {
-   min-width: 200px;
+    min-width: 200px;
     /*height: 60px;*/
     width: 20%;
     padding: 0 5px;
 }
 
-.upcome{
-	width: 100%;
-	background-color: #333;
-	background-size: contain;
-	text-align: center;
-	height: 180px;
-	vertical-align: bottom;
+.upcome {
+    width: 100%;
+    background-color: #333;
+    background-size: contain;
+    text-align: center;
+    height: 180px;
+    vertical-align: bottom;
+}
 
+.upcome_div {
+    width: 100%;
+    margin: auto;
+    /*position: absolute;*/
 }
-.upcome_div{
-	width: 100%;
-	margin: auto;
-	
-	/*position: absolute;*/
 
+.upcome_image {
+    margin: auto;
+    position: relative;
+    width: 15%;
+    /*left: 20%;*/
+    height: 200px;
 }
-.upcome_image{
-	margin:auto;
-	position: relative;
-	width: 15%;
-	/*left: 20%;*/
-	height: 200px;
 
+.upcome_tag {
+    display: inline;
+    width: 60%;
+    font-size: 46px;
+    position: relative;
+    bottom: 88px;
+    right: 40px;
 }
-.upcome_tag{
-	display: inline;
-	width: 60%;
-	font-size: 46px;
-	position: relative;
-	bottom: 88px;
-	right: 55px;
-}
-.footer_social{
-	position: absolute;
+
+.footer_social {
+    position: absolute;
     left: 0px;
     right: 0px;
-   
     text-align: center;
 }
+
+
 /*Starting the media query for the first break point. 
 Adjusting the sizes of the text to fit the new width.*/
 
@@ -423,8 +425,8 @@ Adjusting the sizes of the text to fit the new width.*/
     ::-moz-placeholder {
         font-size: 14px;
     }
-    .feed_sub{
-    	height: 200px;
+    .feed_sub {
+        height: 200px;
     }
     .feed_tag {
         width: 100%;
@@ -452,19 +454,19 @@ Adjusting the sizes of the text to fit the new width.*/
         min-width: 450px;
     }
     .social_image {
-    	width: 30%;
+        width: 30%;
     }
-    .upcome{
-    	height: 150px;
+    .upcome {
+        height: 150px;
     }
-    .upcome_image{
-    	width: 15%;
-    	height: 170px;
+    .upcome_image {
+        width: 15%;
+        height: 170px;
     }
-    .upcome_tag{
-    	font-size: 30px;
-    	bottom: 80px;
-    	right: 32px;
+    .upcome_tag {
+        font-size: 30px;
+        bottom: 80px;
+        right: 32px;
     }
 }
 
@@ -473,19 +475,16 @@ Adjusting the sizes of the text to fit the new width.*/
 Changing the view of "Personalize Your Feed" according to the new width.*/
 
 @media screen and (max-width:660px) {
-    section{
-    	padding:15px 0;
+    section {
+        padding: 15px 0;
     }
-
-    .feed_sub_div
-    .feed_sub_image {
+    .feed_sub_div .feed_sub_image {
         display: block;
     }
-
-    .feed_sub_image{
-    	width: 100%;
-    	margin:auto;
-    	max-height: 200px;
+    .feed_sub_image {
+        width: 100%;
+        margin: auto;
+        max-height: 200px;
     }
     .feed_tag {
         width: 75%;
@@ -493,23 +492,21 @@ Changing the view of "Personalize Your Feed" according to the new width.*/
     .feed_bg_div {
         width: 100%;
         margin-left: -40px;
+        padding-bottom: 10px;
     }
-    
     .feed_sub_head {
-        
         display: block;
         text-align: center;
         font-size: 30px;
     }
     .feed_sub2_head {
-    	margin-top:210px;
+        margin-top: 210px;
     }
     .feed_sub_content {
-        
         text-align: center;
     }
     .feed_bg {
-        width: 100%;        
+        width: 100%;
         margin: auto;
         min-width: 450px;
     }
@@ -525,26 +522,150 @@ Changing the view of "Personalize Your Feed" according to the new width.*/
         width: 100%;
         text-align: center;
     }
-    .social_connect{
-    	margin-top: 350px;
+    .social_connect {
+        margin-top: 350px;
     }
     .social_image {
-    	width: 30%;
-    	min-width: 100px;
-
+        width: 30%;
+        min-width: 100px;
     }
-    .upcome{
-    	height: 125px;
+    .upcome {
+        height: 125px;
     }
-    .upcome_image{
-    	width: 15%;
-    	height: 140px;
+    .upcome_image {
+        width: 15%;
+        height: 140px;
     }
-    .upcome_tag{
-    	font-size: 27px;
-    	bottom: 67px;
-    	right: 32px;
+    .upcome_tag {
+        font-size: 27px;
+        bottom: 67px;
+        right: 32px;
+    }
+    .arrow_down {
+        height: 60px;
     }
 }
 
 
+/*Starting the media query to write the css style for the mobile view of the site*/
+
+@media screen and (max-width:545px) {
+	html{
+		overflow-x:hidden;
+	}
+    .small_screen {
+        z-index: 3;
+        height: 60px;
+        padding-bottom: 10px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        background: #fff;
+        display: block;
+    }
+    .large_screen {
+        display: none;
+    }
+    .menu,
+    .social {
+        width: 60px;
+        margin: 20px;
+    }
+    .logo {
+        left: 60px;
+        right: 60px;
+    }
+    .section_main {
+        font-size: 25px;
+    }
+    .section_sub {
+        font-size: 13px;
+    }
+    .email {
+        font-size: 13px;
+        width: 190px;
+        height: 40px;
+    }
+    .ok {
+        font-size: 13px;
+        width: 45px;
+        height: 40px;
+    }
+    /* Safari,
+    Chrome and Opera */
+    ::-webkit-input-placeholder {
+        font-size: 13px;
+    }
+    /* Firefox 19+ */
+    ::-moz-placeholder {
+        font-size: 13px;
+    }
+    .section_lower {
+        font-size: 13px;
+        margin-top: -25px;
+        padding-bottom: 45px;
+    }
+    .arrow_down {
+        height: 60px;
+    }
+    .feed_head {
+        font-size: 25px;
+    }
+    .feed_tag {
+        font-size: 13px;
+        width: 100%;
+    }
+    .feed_bg {
+        width: 133%;
+        min-width: 0px;
+    }
+    .feed_bg_div {
+        padding-bottom: 0px;
+    }
+    .feed_sub {
+        height: 130px;
+    }
+    .feed_sub_div {
+        height: 180px;
+    }
+    .feed_sub_head {
+        font-size: 25px;
+    }
+    .feed_sub_content {
+        font-size: 13px;
+    }
+    .feed_sub_image {
+        width: 80%;
+        margin: 0% 10%;
+    }
+    .feed_sub_image2 {
+        margin-top: 135px;
+    }
+    .social_head {
+        font-size: 25px;
+    }
+    .social_content {
+        font-size: 15px;
+    }
+    .social_links {
+        display: block;
+        height: 120px;
+    }
+    .social_image {
+        width: 60%;
+        height: 40px;
+        padding-bottom: 20px;
+    }
+    .upcome {
+        height: 85px;
+    }
+    .upcome_image {
+        width: 25%;
+        height: 115px;
+    }
+    .upcome_tag {
+        font-size: 22px;
+        bottom: 55px;
+        right: 30px;
+    }
+}

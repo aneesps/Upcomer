@@ -9,7 +9,10 @@
 
 <body>
     <div id="wrapper">
-        <header>
+
+        <!-- Header for the view in large screen such as desktops and laptops. -->
+
+        <header class="large_screen">
             <div class="menu">
                 <ul>
                     <li>
@@ -23,12 +26,26 @@
             <div class="social">
                 <ul>
                     <li>
-                        <a href="#twitter"><img class="social_icon" src="Images/tweet-icon.png"></a>
-                    </li>
-                    <li>
                         <a href="#fb"><img class="social_icon" src="Images/fb-icon.png"></a>
                     </li>
+                    <li>
+                        <a href="#twitter"><img class="social_icon" src="Images/tweet-icon.png"></a>
+                    </li>
                 </ul>
+            </div>
+            <div class="logo">
+                <img src="Images/upcomer-logo.png"></a>
+            </div>
+        </header>
+
+        <!-- Header for the view in small screen like mobiles.    -->
+        
+        <header class="small_screen">
+            <div class="menu">
+                <a class="active_page" href="index.html">Home</a>
+            </div>
+            <div class="social">
+                <a class="inactive_page" href="about.html">About</a>
             </div>
             <div class="logo">
                 <img src="Images/upcomer-logo.png"></a>
@@ -67,8 +84,7 @@
                     <h4 class="feed_sub_head feed_sub1_head">All in one place.</h4>
                     <p class="feed_sub_content">Follow your favourite products to get only the most important updates, such as release dates, reviews, specifications, giveaways and more in your personal feed</p>
                 </div>
-                <img class="feed_sub_image feed_sub_image1"  src="Images/illustration1.png">
-
+                <img class="feed_sub_image feed_sub_image1" src="Images/illustration1.png">
             </section>
             <section class="feed_sub">
                 <div class="feed_sub_div">
@@ -95,19 +111,19 @@
             </div>
         </section>
         <section class="upcome">
-        	<div class="upcome_div">
-        		<img src="Images/hand.png" class="upcome_image">
-        		<p class="bgred_font_head upcome_tag">#upcomeriscoming</p>
-        	</div>
+            <div class="upcome_div">
+                <img src="Images/hand.png" class="upcome_image">
+                <p class="bgred_font_head upcome_tag">#upcomeriscoming</p>
+            </div>
         </section>
         <footer>
-        	<div class="footer_social">
+            <div class="footer_social">
                 <ul>
                     <li>
-                        <a href="#twitter"><img class="social_icon" src="Images/tweet-icon.png"></a>
+                        <a href="#fb"><img class="social_icon" src="Images/fb-icon.png"></a>
                     </li>
                     <li>
-                        <a href="#fb"><img class="social_icon" src="Images/fb-icon.png"></a>
+                        <a href="#twitter"><img class="social_icon" src="Images/tweet-icon.png"></a>
                     </li>
                 </ul>
             </div>

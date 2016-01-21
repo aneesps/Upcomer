@@ -393,10 +393,9 @@ article {
 }
 
 .footer_social {
-    position: absolute;
-    left: 0px;
-    right: 0px;
+    display: block;
     text-align: center;
+    padding:10px 0px;
 }
 
 
@@ -574,6 +573,8 @@ Changing the view of "Personalize Your Feed" according to the new width.*/
     .logo {
         left: 60px;
         right: 60px;
+        top: 15px;
+        padding:0px 10px;
     }
     .section_main {
         font-size: 25px;
@@ -647,6 +648,7 @@ Changing the view of "Personalize Your Feed" according to the new width.*/
     .social_content {
         font-size: 15px;
     }
+    @media screen and (max-width: 400px){
     .social_links {
         display: block;
         height: 120px;
@@ -656,11 +658,12 @@ Changing the view of "Personalize Your Feed" according to the new width.*/
         height: 40px;
         padding-bottom: 20px;
     }
+}
     .upcome {
         height: 85px;
     }
     .upcome_image {
-        width: 25%;
+       
         height: 115px;
     }
     .upcome_tag {

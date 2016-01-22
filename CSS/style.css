@@ -540,7 +540,7 @@ Changing the view of "Personalize Your Feed" according to the new width.*/
 }
 
 
-/*Starting the media query to write the css style for the mobile view of the site*/
+/*Starting the media query to write the css style for the mobile view of the 'Home' page*/
 
 @media screen and (max-width:545px) {
     html {

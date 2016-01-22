@@ -146,26 +146,30 @@
     font-size: 24px;
     color: #fff;
 }
-.look{
-	width: 100%;
-	text-align: center;
+
+.look {
+    width: 100%;
+    text-align: center;
 }
-.look_head{
-	font-size: 36px;
-	padding-bottom: 20px;
+
+.look_head {
+    font-size: 36px;
+    padding-bottom: 20px;
 }
-.look_content{
-	font-size: 20px;
-	padding-bottom: 20px;
+
+.look_content {
+    font-size: 20px;
+    padding-bottom: 20px;
 }
+
 .email_div {
     display: table;
-    margin:auto;
-    width:40%;
+    margin: auto;
+    width: 40%;
     height: 60px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-     border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     background-color: #2ecc71;
     margin-bottom: 20px;
@@ -178,4 +182,97 @@
     font-family: Asap-Bold;
     font-size: 24px;
     color: #fff;
+}
+
+
+/*Starting the media query for the first break point. 
+Changing the view of points listed to fit the new width.*/
+
+@media screen and (max-width: 1050px) {
+    .intro_text_div {
+        width: 100%;
+        text-align: center;
+    }
+    .intro_image {
+        width: 36%;
+        margin: 0 32%;
+    }
+    .points_div_left,
+    .points_div_right {
+        position: relative;
+        height: 180px;
+        width: 100%;
+        vertical-align: middle;
+    }
+    .points_div_right {
+        margin: 0px;
+    }
+    .point_circle {
+        left: 0;
+    }
+    .circle1,
+    .circle3 {
+        float: none;
+    }
+    .circle2 {
+        top: 60px;
+    }
+    .circle4 {
+        top: 50px;
+    }
+    .points_div_left {
+        float: right;
+    }
+    .points {
+        position: relative;
+        height: 175px;
+        width: 90%;
+        float: right;
+    }
+    .point2,
+    .point4 {
+        margin-left: 0px;
+    }
+    .points_div3 {
+        margin-top: 0px;
+    }
+}
+/*Starting the media query to write the css style for the mobile view of the 'About' page*/
+@media screen and (max-width:545px) {
+    .intro_text_div {
+        line-height: 150%;
+    }
+    .intro_head, .look_head {
+        font-size: 26px;
+    }
+    .intro_para,
+    .intro_year, .look_content, .email_id {
+        font-size: 16px;
+    }
+    .intro_image {
+        width: 50%;
+        margin: 0 25%;
+        height: 300px;
+    }
+    .point_head {
+        font-size: 18px;
+    }
+    .point_para {
+        font-size: 15px;
+    }
+    .points {
+        width: 75%;
+    }
+    .points_div_left,
+    .points_div_right {
+        height: 200px;
+    }
+    .now{
+    	width:80px;
+    	height: 80px;
+    }
+    .email_div{
+    	width: 70%;
+    	height: 50px;
+    }
 }

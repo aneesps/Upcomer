@@ -11,6 +11,7 @@
     font-weight: 400;
     src: local('Asap'), local('Asap-Regular'), url(../Fonts/asap_9a9c99a733cce9abf9e9c7ad122ac9a5.woff) format('woff'), url(../Fonts/asap_9a9c99a733cce9abf9e9c7ad122ac9a5.ttf) format('truetype');
 }
+
 .about_head {
     border-bottom: 2px solid #999;
 }
@@ -20,118 +21,161 @@
     margin: 60px 10% 0 10%;
     line-height: 200%;
 }
-.head_font{
-	font-family: Asap-Bold;
-	color: #333;
-}
-.content_font{
-	font-family: Asap-Regular;
-	color: #999;
-}
-.intro_head{
-	font-size: 36px;
-}
-.intro_para{
-	font-size: 20px;
-}
-.intro_text_div{
-	width:60%;
-	text-align: left;
-	line-height: 200%;
-}
-.intro_image{
-	width: 35%;
-	height: 450px;
-}
-.intro_year{
-	text-align: right;
-	font-family: Asap-Bold;
-	color: #999;
-	font-size: 20px;
-}
-.point_head{
-	font-size: 22px;
-}
-.point_para{
-	font-size: 20px;
-}
-.point2, .point4{
-	margin-left: 35px;
-}
-.point_circle{
-	width: 35px;
-	height: 35px;
-	border-radius: 50%;
-	position: relative;
 
+.head_font {
+    font-family: Asap-Bold;
+    color: #333;
 }
-.points_div_left{
-	width: 40%;
-	text-align: left;
-	height: 150px;
-}
-.points_div_right{
-	width: 40%;
-	text-align: left;
-	height: 150px;
-	display: inline-block;
-	margin-left: 96px;
-	margin-top: -50px;
-	float:right;
-}
-.points_div3{
-	margin-top: 125px;
-}
-/*.point1{
-	text-align: right;
-}*/
 
-/*.points_right{
-	width: 40%;
-	float: right;
-}*/
-/*.point3{
-	text-align: right;
-}*/
-/*.point4{
-	float: right;
-}*/
-.circle1{
-	background-color: #FAA8AA;
-	float: right;
-	right: -17px;
-	top: 35px;
+.content_font {
+    font-family: Asap-Regular;
+    color: #999;
 }
-.circle2{
-	background-color: #D6797B;
-	float: left;
-	left: -20%;
-	display: inline-block;
-	top:94px;
+
+.intro_head {
+    font-size: 36px;
 }
-.circle3{
-	background-color: #C36061;
-	float: right;	
-	right: -17px;
-	top: 35px;
+
+.intro_para {
+    font-size: 20px;
 }
-.circle4{
-	background-color: #B04E4F;
-	float: left;
-	left: -20%;
-	display: inline-block;
-	top:94px;
+
+.intro_text_div {
+    width: 60%;
+    text-align: left;
+    line-height: 200%;
 }
-.include_now{
-	position: relative;
-	left: 0;
-	right: 0;
-	height: 100px;
+
+.intro_image {
+    width: 35%;
+    height: 450px;
 }
-.now{
+
+.intro_year {
+    text-align: right;
+    font-family: Asap-Bold;
+    color: #999;
+    font-size: 20px;
+}
+
+.point_head {
+    font-size: 22px;
+}
+
+.point_para {
+    font-size: 20px;
+}
+
+.point2,
+.point4 {
+    margin-left: 35px;
+}
+
+.point_circle {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.points_div_left {
+    width: 40%;
+    text-align: left;
+    height: 150px;
+}
+
+.points_div_right {
+    width: 40%;
+    text-align: left;
+    height: 150px;
+    display: inline-block;
+    margin-left: 96px;
+    margin-top: -50px;
+    float: right;
+}
+
+.points_div3 {
+    margin-top: 125px;
+}
+
+.circle1 {
+    background-color: #FE8888;
+    float: right;
+    right: -29%;
+    top: 60px;
+}
+
+.circle2 {
+    background-color: #FC6A6A;
+    float: left;
+    left: -29%;
+    display: inline-block;
+    top: 94px;
+}
+
+.circle3 {
+    background-color: #FB5B5B;
+    float: right;
+    right: -29%;
+    top: 50px;
+}
+
+.circle4 {
+    background-color: #FB4444;
+    float: left;
+    left: -29%;
+    display: inline-block;
+    top: 86px;
+}
+
+.now {
+    display: table;
+    margin: 175px auto 0px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FD0202;
+}
+
+.now_tag {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Asap-Bold;
+    font-size: 24px;
+    color: #fff;
+}
+.look{
+	width: 100%;
 	text-align: center;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	background-color:#B04E4F;
+}
+.look_head{
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+.look_content{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.email_div {
+    display: table;
+    margin:auto;
+    width:40%;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+     border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #2ecc71;
+    margin-bottom: 20px;
+}
+
+.email_id {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Asap-Bold;
+    font-size: 24px;
+    color: #fff;
 }

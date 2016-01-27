@@ -21,6 +21,7 @@ body {
     height: 60px;
     padding-bottom: 10px;
     position: fixed;
+    top: 0;
     left: 0;
     right: 0;
     background: #fff;
@@ -173,6 +174,10 @@ input {
 .arrow_down {
     height: 66px;
     margin-top: -46px;
+}
+
+#scroll img{
+	cursor: pointer;
 }
 
 .section_submit {

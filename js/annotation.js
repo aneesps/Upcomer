@@ -8,7 +8,7 @@ var content = $('#wrapper').annotator();
 
       // Attach the uri of the current page to all annotations to allow search.
       annotationData: {
-        'url': 'http://this/document/only'
+        'url': 'http://aneesps.github.io/Upcomer/'
       },
 
       // This will perform a "search" action when the plugin loads. Will
@@ -16,6 +16,6 @@ var content = $('#wrapper').annotator();
       // eg. /store/endpoint/search?limit=20&uri=http://this/document/only
       loadFromSearch: {
         'limit': 20,
-        'url': 'http://this/document/only'
+        'url': 'http://aneesps.github.io/Upcomer/'
       }
     });

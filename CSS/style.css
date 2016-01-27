@@ -290,16 +290,16 @@ article {
     text-align: right;
 }
 .feed_sub_image {
-    width: 40%;
-    display: inline-block;
+    width: 40% !important;
+    display: inline-block !important;
 }
 
 .feed_sub_image1 {
-    float: left;
+    float: left !important;
 }
 
 .feed_sub_image2 {
-    float: right;
+    float: right !important;
 }
 
 .feed_sub_div {

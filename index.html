@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <title>Upcomer</title>
     <!-- <link rel="stylesheet" type="text/css" href="CSS/annotator.min.css"> -->
+    <link rel="stylesheet" href="http://annotorious.github.com/latest/annotorious.css" />
     <link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.2.5/annotator.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script>
+    function init() {
+        anno.makeAnnotatable(document.getElementById('myImage'));
+    }
+    </script>
 </head>
 
 <body>
@@ -74,7 +80,7 @@
                 <h1 class="bgred_font_head feed_head">Personalize your feed</h1>
                 <p class="bgred_font_content feed_tag">Choose your favourite brands and product categories so you are notified as soon as a new product you care about is announced</p>
                 <div class="feed_bg_div home_div">
-                    <img class="feed_bg" src="Images/feed_bg.png">
+                    <img class="feed_bg annotatable" src="Images/feed_bg.png">
                 </div>
             </section>
             <section class="feed_sub">
@@ -82,14 +88,14 @@
                     <h4 class="feed_sub_head feed_sub1_head">All in one place.</h4>
                     <p class="feed_sub_content feed_sub_content1">Follow your favourite products to get only the most important updates, such as release dates, reviews, specifications, giveaways and more in your personal feed</p>
                 </div>
-                <img class="feed_sub_image feed_sub_image1" src="Images/illustration1.png">
+                <img class="annotatable feed_sub_image feed_sub_image1" src="Images/illustration1.png">
             </section>
             <section class="feed_sub">
                 <div class="feed_sub_div home_div">
                     <h4 class="feed_sub_head feed_sub2_head">Be the first to know.</h4>
                     <p class="feed_sub_content feed_sub_content2">Get push notifications when a major event happens, such as when a new product. We'll make sure you never miss anything important </p>
                 </div>
-                <img class="feed_sub_image feed_sub_image2" src="Images/illustration2.png">
+                <img class="feed_sub_image feed_sub_image2 annotatable" src="Images/illustration2.png">
             </section>
         </article>
         <section class="main_section social_connect">
@@ -110,21 +116,20 @@
         </section>
         <section class="upcome">
             <div class="upcome_div home_div">
-                <img src="Images/hand.png" class="upcome_image">
+                <img class="annotatable" src="Images/hand.png" class="upcome_image">
                 <p class="bgred_font_head upcome_tag">#upcomeriscoming</p>
             </div>
         </section>
         <footer>
             <div class="footer_social home_div">
-                <img class="social_icon" src="Images/fb-icon.png"></a>
-                <img class="social_icon" src="Images/tweet-icon.png"></a>
+                <img class="social_icon annotatable" src="Images/fb-icon.png"></a>
+                <img class="social_icon annotatable" src="Images/tweet-icon.png"></a>
             </div>
         </footer>
     </div>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="http://assets.annotateit.org/annotator/v1.2.10/annotator-full.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://assets.annotateit.org/annotator/v1.2.10/annotator-full.min.js"></script>
+    <script src="http://annotorious.github.com/latest/annotorious.min.js"></script>
     <script type="text/javascript" src="js/annotation.js"></script>
 </body>
 
